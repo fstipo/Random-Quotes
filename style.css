@@ -19,8 +19,68 @@ body {
     flex-direction: column;
 }
 
-.content {}
+h2 {
+    color: #F05735;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.content {
+    width: 50%;
+    margin-top: 0.6rem;
+    background-color: #36A345;
+    padding: 4rem;
+    border-radius: 5px;
+
+}
 
 .quote {
     font-family: 'Spirax', cursive;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.author {
+    text-align: right;
+    margin-top: 0.6rem;
+    font-size: 2rem;
+    color: #061C21;
+    font-family: 'Spirax', cursive;
+    font-weight: 900;
+
+}
+
+button {
+    background-color: #F05735;
+    color: aliceblue;
+}
+
+hr {
+    margin-top: 0.6rem;
+    color: #061C21;
+    width: 100%;
+}
+
+.icon {
+    color: #061C21;
+    margin-right: 1rem;
+}
+
+button {
+    border: none;
+    padding: 0.8rem;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 0.6rem;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:hover,
+button:active {
+    background-color: rgba(240, 87, 53, 0.9);
+    color: #061C21;
+    cursor: pointer;
 }
