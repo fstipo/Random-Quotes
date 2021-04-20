@@ -30,7 +30,7 @@ h2 {
     margin-top: 0.6rem;
     background-color: #36A345;
     padding: 4rem;
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
 
@@ -70,7 +70,7 @@ button {
     border: none;
     padding: 0.8rem;
     outline: none;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 0.6rem;
     width: 50%;
     font-size: 1.5rem;
