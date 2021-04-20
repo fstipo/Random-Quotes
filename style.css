@@ -80,7 +80,7 @@ button {
 
 button:hover,
 button:active {
-    background-color: rgba(240, 87, 53, 0.9);
+    background-color: rgba(240, 87, 53, 0.8);
     color: #061C21;
     cursor: pointer;
 }
