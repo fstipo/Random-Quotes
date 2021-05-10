@@ -38,6 +38,7 @@ h2 {
     font-family: 'Spirax', cursive;
     font-size: 1.8rem;
     text-align: justify;
+    padding-top: 12px;
 }
 
 .author {
@@ -64,9 +65,12 @@ hr {
 .icon {
     color: #061C21;
     margin-right: 1rem;
+    font-size: 1rem;
+
 }
 
 button {
+
     border: none;
     padding: 0.8rem;
     outline: none;
@@ -76,6 +80,7 @@ button {
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
+    line-height: 1.8;
 }
 
 button:hover,
