@@ -13,8 +13,11 @@ const getQuote = async () => {
 }
 
 getQuote().then(data => {
+
+    newQuote.innerHTML = `<i class="icon fas fa-quote-left"></i>
+    ${data.content}
+    <i class="icon fas fa-quote-right"></i>`;
     author.innerHTML = `-${data.author}`;
-    newQuote.innerHTML = data.content;
 })
 
 btn.addEventListener('click', () => {
