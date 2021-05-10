@@ -1,4 +1,5 @@
-* {
+*,
+form {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -51,7 +52,7 @@ h2 {
 
 }
 
-button {
+.btn {
     background-color: #F05735;
     color: aliceblue;
 }
@@ -69,7 +70,7 @@ hr {
 
 }
 
-button {
+.btn {
 
     border: none;
     padding: 0.8rem;

@@ -2,7 +2,9 @@
 'use strict'
 
 const newQuote = document.querySelector('.quote');
-console.log(newQuote);
+const author = document.querySelector('.author');
+const btn = document.querySelector('.btn')
+
 
 const getQuote = async () => {
     const response = await fetch('https://api.quotable.io/random');
@@ -11,6 +13,10 @@ const getQuote = async () => {
 }
 
 getQuote().then(data => {
-    console.log(data.content);
-    console.log(data.author);
+    author.innerHTML = `-${data.author}`;
+    newQuote.innerHTML = data.content;
 })
+
+btn.addEventListener('click', () => {
+    window.location.reload();
+});
